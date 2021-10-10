@@ -1,9 +1,11 @@
 
+*{
 
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
+ 
 
 .link {
      
@@ -55,13 +57,14 @@ hr {
 }
 
 .navigation .link {
+     
+    text-align: end;
     color: rgb(226, 215, 215);
     display: inline;
-    margin-inline-end: auto;
-    text-decoration: none;
-    text-align: right;
-     
-    font-size: large;
+     padding: 0.5rem;
+     font-size: larger;
+
+    
 }
 
 
@@ -75,7 +78,7 @@ hr {
     text-align: left;
     color: pink;
     font-weight: bold;
-    font: large;
+    font: xx-large;
 }
 
 .quiz-radio{
@@ -92,7 +95,7 @@ hr {
 h1{
     color:rgb(87, 7, 38);
      font-size:40px;
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: bolder;
 }
 .question-container{
     display: block;
