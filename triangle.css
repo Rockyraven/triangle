@@ -68,9 +68,23 @@ hr {
 }
 
 
-.list-elements-inline:hover {
+.navigation .nav-brand {
+    text-align: left;
+    color: pink;
     font-weight: bold;
-    font-size: 22px;
+    font: xx-large;
+}
+
+.quiz-radio{
+    text-align: left;
+    margin: 10px;
+    display: inline;
+}
+.quiz-label{
+    text-align: left;
+    margin-left: 10px;
+    display: block;
+    color: black;
 }
 
 
