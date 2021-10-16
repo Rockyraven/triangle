@@ -9,9 +9,10 @@ function calculateHypo() {
     b = Number(baseInput.value);
     p = Number(heightInput.value);
     if(b<0 || p<0){
-        showResult.innerText = please enter positive value;
+        showResult.innerText = "please enter positive value";
     }
-    if(b == 0 || p == 0 ){
+
+   else if(b == 0 || p == 0 ){
     //    console.log("xyz");
        showResult.innerText = "Please enter both the values";
     }
